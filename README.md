@@ -1,6 +1,6 @@
 # lbixRunner
 Runs .lbix images <br>
-.lbix is a ZIP-based image format, which contains .lbscript (optional) and .lbimg (image) <br>
+.lbix is a ZIP-based image format, which contains .lbscript (optional), .lbimg (image) and .lbicon (icon, if used seticon in .lbscript) <br>
 The lbscript is limited and mostly for images and UI <br>
 lbscript scripting: <br>
 showmsgbox "Window Title", "Message content" --shows a message box <br>
@@ -12,3 +12,4 @@ wait 2 --waits seconds before running the next command <br>
 lbixname --the .lbix name <br>
 math 2+2 --a mini calculator <br>
 seticon --sets the window icon (.lbicon format, in the .lbix) <br>
+# or // --ignored
