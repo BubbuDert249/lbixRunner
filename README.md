@@ -12,3 +12,9 @@ wait 2 --waits seconds before running the next command <br>
 lbixname --the .lbix name <br>
 math 2+2 --a mini calculator <br>
 seticon --sets the window icon (.lbicon format, in the .lbix) <br>
+# How to build from source: <br>
+1. Download at least lbixrunner.py and lbixrunner.spec <br>
+2. Install PyInstaller if not installed: <br>
+   ```pip install pyinstaller``` <br>
+3. Run: <br>
+  ```pyinstaller lbixrunner.spec <br>
