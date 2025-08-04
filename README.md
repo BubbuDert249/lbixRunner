@@ -11,7 +11,7 @@ transparency 10 --sets the window transparency (kind of like modern Aero) <br>
 wait 2 --waits seconds before running the next command <br>
 lbixname --the .lbix name <br>
 math 2+2 --a mini calculator <br>
-seticon --sets the window icon (.lbicon format, in the .lbix) <br>
+seticon icon.lbicon --sets the window icon (.lbicon format, in the .lbix) <br>
 # How to build from source: <br>
 1. Download at least lbixrunner.py and lbixrunner.spec <br>
 2. Install PyInstaller if not installed: <br>
