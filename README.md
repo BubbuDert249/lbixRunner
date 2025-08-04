@@ -18,3 +18,5 @@ seticon --sets the window icon (.lbicon format, in the .lbix) <br>
    ```pip install pyinstaller``` <br>
 3. Run: <br>
   ```pyinstaller lbixrunner.spec``` <br>
+If built on Windows, it supports Windows 7 to 11 <br>
+If built on macOS, it supports macOS 10.13 High Sierra to 14 Sonoma <br>
