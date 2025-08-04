@@ -17,4 +17,4 @@ seticon --sets the window icon (.lbicon format, in the .lbix) <br>
 2. Install PyInstaller if not installed: <br>
    ```pip install pyinstaller``` <br>
 3. Run: <br>
-  ```pyinstaller lbixrunner.spec <br>
+  ```pyinstaller lbixrunner.spec``` <br>
