@@ -1,0 +1,14 @@
+showtxtbox "Enter text", "Enter something" #asks the user to
+#enter something
+showmsgbox "Output", "You typed txtboxinput" //user input
+setwintitle "Custom title" //set title
+#transparency
+transparency 100
+wait 2
+showmsgbox "lbix name", "The .lbix name is lbixname"
+//lbix name
+#lbix name, live change
+showmsgbox "Math", "5x2 is math 5*2"
+seticon icon.lbscript
+//custom icon
+#lbscript end
