@@ -1,4 +1,6 @@
 # lbixRunner
+The .lbix image format is like .svgz, it is a archive (gzip for svgz, zip for lbix), it can include <br>
+scripts (js for svg/svgz, lbscript for lbix) but lbix is bitmap, svg/svgz is vector <br>
 Runs .lbix images <br>
 .lbix is a ZIP-based image format, which contains .lbscript and .lbimg <br>
 The lbscript is limited and mostly for images and UI <br>
