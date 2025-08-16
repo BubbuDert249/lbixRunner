@@ -87,6 +87,7 @@ class LBScriptRunner:
         if line.startswith("setwintitle "):
             arg = line[len("setwintitle "):].strip()
             arg = self.substitute_vars(arg)
+            arg = self.strip_quotes(arg)
             if self.image_window and self.image_window.winfo_exists():
                 self.image_window.title(arg)
 
